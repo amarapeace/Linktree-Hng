@@ -1,9 +1,9 @@
 
 
-export default function Links() {
+export default function Links({href, text, idd}) {
   return (
     <div className="linkdiv">
-      <a href="twitter.com" className="mylinks">Twitter Link</a>
+      <a href={href} className="mylinks" id={idd}>{text}</a>
     </div>
   );
 }
