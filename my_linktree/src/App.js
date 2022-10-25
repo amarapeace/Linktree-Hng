@@ -10,13 +10,13 @@ export default function App() {
     <div className="body">
       <Profile />
       <Links
-        href="“https://training.zuri.team/"
+        href="https://training.zuri.team/"
         idd="btn__zuri"
         text="Zuri Home"
       />
       <Links href="http://books.zuri.team" idd="books" text="Zuri Books" />
       <Links
-        href="https://books.zuri.team/python-for-beginners?ref_id=OnwunzoAmarabook__design"
+        href="https://books.zuri.team/python-for-beginners?ref_id=Onwunzo_Amara"
         idd="book__python"
         text="Zuri Python Books"
       />
