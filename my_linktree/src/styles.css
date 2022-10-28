@@ -11,7 +11,7 @@
   padding: 10% 5%;
 }
 
-.myprofile h3{
+.myprofile h3 {
   visibility: hidden;
 }
 
@@ -43,7 +43,6 @@
 }
 
 .footicons {
-
 }
 
 .foot {
@@ -54,17 +53,16 @@
   margin-right: 0;
 }
 
-
-@media screen and (max-width: 1000px){
-   .foot img {
+@media screen and (max-width: 1000px) {
+  .foot img {
     width: 20%;
-   }
+  }
 }
 
-
-@media screen and (max-width: 500px){
-   .foot, .footicons {
-    display: none;
-    
-   }
+@media screen and (max-width: 500px) {
+  .foot img {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
 }
