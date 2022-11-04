@@ -6,11 +6,14 @@ import Contact from "./components/Contact/contact";
 
 export default function App() {
   return (
-    <div>
-      <Routes>
+    
+    
+       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
-      </Routes>
-    </div>
+      </Routes> 
+    
   );
 }
+
+// "homepage": "https://amarapeace.github.io/Linktree-Hng",

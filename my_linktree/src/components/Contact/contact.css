@@ -1,10 +1,78 @@
-input_page {
+* {
+  font-family: "Poppins";
+}
+
+
+.maindiv {
   width: 50%;
-  background-color: red;
+  justify-content: center;
+  margin: 10% auto;
 }
-input_label {
+
+.input_box {
+  border-radius: 4px;
+  background-color: white;
+  width: 80%;
+  padding: 2% 5%;
+  outline-color: #D0D5DD;
+}
+
+.check_label label {
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
 
 }
-input_box {
+.linkdiv {
+  background-color: #1570ef;
+  color: white;
+  text-align: center;
+}
 
+.linkdiv a {
+  color: white;
+}
+
+.input {
+  width: 90%;
+}
+
+::placeholder {
+  /* opacity: 0.5; */
+  color: rgba(45, 45, 45, 0.5);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* line-height: 32px; */
+}
+
+.input-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: #22443e;
+}
+.check_label {
+  display: flex;
+  flex-direction: column;
+}
+.input_box {
+}
+.textareadiv {
+  margin-top: 20px;
+}
+.textarea {
+  border-radius: 6px;
 }
