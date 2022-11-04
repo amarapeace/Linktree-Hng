@@ -8,7 +8,8 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding: 5% 10px;
+  padding: 5% 10px
+  ;
 }
 
 .myprofile h3 {
@@ -62,4 +63,16 @@
     align-items: flex-start;
     flex-direction: row;
   }
+}
+
+
+/* contact page */
+.input_page {
+  
+}
+input_label {
+
+}
+input_box {
+
 }

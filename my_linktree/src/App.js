@@ -1,37 +1,16 @@
 import { React } from "react";
-import './styles.css';
-import Profile from './components/Profile/profile'
-import Links from './components/Links/links'
-import Icons from './components/Icons/icons'
-import Foot from './components/Foot/foot'
+import { Routes, Route } from "react-router-dom";
+import "./styles.css";
+import Home from "./components/Home/home";
+import Contact from "./components/Contact/contact";
 
 export default function App() {
   return (
-    <div className="body">
-      <Profile />
-      <Links
-        href="https://training.zuri.team/"
-        idd="btn__zuri"
-        text="Zuri Home"
-      />
-      <Links href="http://books.zuri.team" idd="books" text="Zuri Books" />
-      <Links
-        href="https://books.zuri.team/python-for-beginners?ref_id=Onwunzo_Amara"
-        idd="book__python"
-        text="Zuri Python Books"
-      />
-      <Links
-        href="https://background.zuri.team"
-        idd="pitch"
-        text="Python Books"
-      />
-      <Links
-        href="https://books.zuri.team/design-rules"
-        idd="book__design"
-        text="Playground Check for Coders"
-      />
-      <Icons />
-      <Foot />
+    <div>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
