@@ -15,17 +15,20 @@ export default function Contact() {
               label="First name"
               input_type="text"
               placeholder="Enter your first name"
+              idd="first_name"
             />
             <Input
               label="Last name"
               input_type="text"
               placeholder="Enter your last name"
+              idd="last_name"
             />
           </div>
           <Input
             label="Email"
             input_type="email"
             placeholder="yourname@gmail.com"
+            idd="email"
           />
           <Textarea />
           <div className="check_label">
@@ -34,7 +37,7 @@ export default function Contact() {
               You agree to providing your data to Amara who may contact you
             </p>
           </div>
-          <button type="submit" className="message">
+          <button type="submit" className="message" id="btn__submit">
             Send Message
           </button>
         </form>
