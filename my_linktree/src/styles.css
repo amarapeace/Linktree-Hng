@@ -31,6 +31,8 @@
   padding-top: 12px;
   border-radius: 8px;
   margin-block: 20px;
+  color: #000;
+  width: 90%;
 }
 
 .mylinks {
@@ -46,9 +48,16 @@
 .foot {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  margin-block-start: 100px;
+  margin-block-start: 80px;
   margin-right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .foot img {
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -58,21 +67,17 @@
 }
 
 @media screen and (max-width: 500px) {
-  .foot img {
+  .foot {
     display: flex;
-    align-items: flex-start;
-    flex-direction: row;
+    /* align-items: flex-start; */
+    flex-direction: column;
+  }
+
+  .foot img {
+    width: 60%;
+    margin-bottom: 20px;
   }
 }
 
 
-/* contact page */
-.input_page {
-  
-}
-input_label {
 
-}
-input_box {
-
-}

@@ -7,7 +7,7 @@ export default function Textarea() {
         <textarea
           name=""
           id=""
-          cols="88"
+          cols="75"
           rows="10"
           placeholder="Send me a message and I'll reply as soon as possible..."
           className="textarea"

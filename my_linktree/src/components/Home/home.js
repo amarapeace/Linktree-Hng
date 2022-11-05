@@ -2,6 +2,7 @@ import Profile from "../Profile/profile";
 import Links from "../Links/links";
 import Icons from "../Icons/icons";
 import Foot from "../Foot/foot";
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -33,8 +34,12 @@ export default function Home() {
         idd="book__design"
         text="Design Books"
       />
-
-      <Links href="./Contact" idd="contact" text="Contact Me" />
+      <div className="linkdiv">
+        <Link to="/contact" className="mylinks" id="contact">
+          Contact Me
+        </Link>
+      </div>
+      
 
       <Icons />
       <Foot />

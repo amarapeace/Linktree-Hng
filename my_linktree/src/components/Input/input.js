@@ -13,4 +13,3 @@ export default function Input({label, placeholder, input_type}) {
 
 
 
-<input type="text" />
